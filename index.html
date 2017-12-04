@@ -189,12 +189,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
+            分类
           </a>
         </li>
       
@@ -209,22 +209,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -357,7 +357,7 @@
             <h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h3 id="新建文档"><a href="#新建文档" class="headerlink" title="新建文档"></a>新建文档</h3><p>假设我们的文章名为 “My New Post”，在命令行键入以下命令即可：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure></p>
 <p>上述命令的结果是在 <code>./source/_posts</code> 路径下新建了一个 My New Post.md 文件。</p>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><h3 id="文档格式"><a href="#文档格式" class="headerlink" title="文档格式"></a>文档格式</h3><p>使用文本编辑器打开刚刚新建的 My New Post.md 文件，会发现其中已经存在内容：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: My New Post</span><br><span class="line">date: 2017-12-04 21:01:39</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p>
-<p>这是用于设置 MarkDown 文档在被解析为静态网页文件时的相关配置，这些配置参数一般位于文件中最上方以 -– 分隔的区域。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title：当前文档名，也是将来在网页中显示的文章标题</span><br><span class="line">date ：新建文档时的当地时区时间。</span><br><span class="line">tags ：文档的标签，可以随意赋值作为文档贴标签。</span><br><span class="line">categories ：文章分类，用法同 tags 一样，不过 categories 值是分先后顺序的。</span><br></pre></td></tr></table></figure></p>
+<p>这是用于设置 MarkDown 文档在被解析为静态网页文件时的相关配置，这些配置参数一般位于文件中最上方以 <code>---</code> 分隔的区域。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title：当前文档名，也是将来在网页中显示的文章标题</span><br><span class="line">date ：新建文档时的当地时区时间。</span><br><span class="line">tags ：文档的标签，可以随意赋值作为文档贴标签。</span><br><span class="line">categories ：文章分类，用法同 tags 一样，不过 categories 值是分先后顺序的。</span><br></pre></td></tr></table></figure></p>
 <h3 id="引用资源"><a href="#引用资源" class="headerlink" title="引用资源"></a>引用资源</h3><p>写博客有时候会想添加图片或者其他形式的资源，这时有两种解决方法：</p>
 <ol>
 <li>使用绝对路径引用资源，在 Web 世界中就是资源的 URL</li>

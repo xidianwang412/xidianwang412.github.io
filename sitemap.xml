@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2017-12-04T13:17:05.045Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2017/12/04/hexo%E7%94%9F%E6%88%90%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2017-12-04T12:49:52.614Z</lastmod>
+    <lastmod>2017-12-04T12:57:53.213Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://yoursite.com/2017/12/03/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E2%80%9D/</loc>
     
     <lastmod>2017-12-03T08:38:42.855Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2017-12-03T08:25:56.344Z</lastmod>
     
   </url>
   
