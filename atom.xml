@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-04T12:57:53.213Z</updated>
+  <updated>2017-12-09T12:26:23.906Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Caffe网络层参数数解析</title>
+    <link href="http://yoursite.com/2017/12/09/Caffe%E7%BD%91%E7%BB%9C%E5%B1%82%E5%8F%82%E6%95%B0%E6%95%B0%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2017/12/09/Caffe网络层参数数解析/</id>
+    <published>2017-12-09T12:16:42.000Z</published>
+    <updated>2017-12-09T12:26:23.906Z</updated>
+    
+    <content type="html"><![CDATA[<p>要运行caffe，需要先创建一个模型（model)，如比较常用的Lenet,Alexnet等， 而一个模型由多个层（layer）构成，每一层又由许多参数组成。<br>要熟练使用caffe进行训练，最重要的就是学会配置文件（prototxt）的编写。<br>层有很多种类型，比如Data,Convolution,Pooling等，层之间的数据流动是以Blobs的方式进行。</p><p>下面介绍一下常见的一些网络层，如数据层,卷积层,激活层,全连接层等。</p><h2 id="数据层"><a href="#数据层" class="headerlink" title="数据层"></a>数据层</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;要运行caffe，需要先创建一个模型（model)，如比较常用的Lenet,Alexnet等， 而一个模型由多个层（layer）构成，每一层又由许多参数组成。&lt;br&gt;要熟练使用caffe进行训练，最重要的就是学会配置文件（prototxt）的编写。&lt;br&gt;层有很多种类型，比
+      
+    
+    </summary>
+    
+      <category term="caffe" scheme="http://yoursite.com/categories/caffe/"/>
+    
+    
+      <category term="caffe" scheme="http://yoursite.com/tags/caffe/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo生成博客</title>
