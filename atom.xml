@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-06T14:20:16.160Z</updated>
+  <updated>2018-10-06T14:25:25.081Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/06/Markdown-%E5%85%A5%E9%97%A8/"/>
     <id>http://yoursite.com/2018/10/06/Markdown-入门/</id>
     <published>2018-10-06T13:51:04.000Z</published>
-    <updated>2018-10-06T14:20:16.160Z</updated>
+    <updated>2018-10-06T14:25:25.081Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><pre><code># 这是一级标题## 这是二级标题...#### 这是四级标题（共支持6级）</code></pre><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>Markdown 支持有序列表和无序列表。<br>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，如：</p><pre><code>* Red* Green* Blue</code></pre><p>显示如下</p><ul><li>Red</li><li>Green</li><li>Blue</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><pre><code># 这是一级标题## 这是二级标题...#### 这是四级标题（共支持6级）</code></pre><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>Markdown 支持有序列表和无序列表。<br>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，如：</p><pre><code>* Red* Green* Blue</code></pre><p>显示如下</p><ul><li>Red</li><li>Green</li><li>Blue<br>列表项目可以包含多个段落，每个项目下的段落都必须缩进4个空格或是1个制表符<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3>和程序相关的写作或是标签语言原始码通常会有已经排版好的代码区块，通常这些区块我们并不希望它以一般段落文件的方式去排版，而是照原来的样子显示。</li></ul><p>要在 Markdown 中建立代码区块很简单，只要简单地缩进4个空格或是1个制表符就可以，例如，下面的输入：<br>    这是一个普通段落：<br>        这是一个代码区块。<br>显示为<br>这是一个普通段落：<br>    这是一个代码区块。</p>]]></content>
     
     <summary type="html">
     
