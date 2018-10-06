@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-06T08:16:26.413Z</updated>
+  <updated>2018-10-06T13:57:00.281Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 入门</title>
+    <link href="http://yoursite.com/2018/10/06/Markdown-%E5%85%A5%E9%97%A8/"/>
+    <id>http://yoursite.com/2018/10/06/Markdown-入门/</id>
+    <published>2018-10-06T13:51:04.000Z</published>
+    <updated>2018-10-06T13:57:00.281Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，<br>通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown&lt;/h1&gt;&lt;p&gt;Markdown是一种可以使用普通文本编辑器编写的标记语言，&lt;br&gt;通过简单的标记语法，它可
+      
+    
+    </summary>
+    
+      <category term="语言" scheme="http://yoursite.com/categories/%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
