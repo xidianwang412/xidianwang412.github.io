@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="My Notes">
 <meta property="og:description" content="Tensorflow之函数1. 生成函数Tensorflow随机数生成函数     函数名称 随机数分布 主要参数     tf.random_normal 正太分布 平均值、标准差、取值类型   tf.truncated_normal 正太分布，但如果随机出来的值超过2个标准差，则这个数将被重新随机 平均值、标准差、取值类型   tf.random_uniform 平均分布 最小、最大取值，取值">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-07T08:54:48.672Z">
+<meta property="og:updated_time" content="2018-10-07T09:08:26.195Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Tensorflow 笔记">
 <meta name="twitter:description" content="Tensorflow之函数1. 生成函数Tensorflow随机数生成函数     函数名称 随机数分布 主要参数     tf.random_normal 正太分布 平均值、标准差、取值类型   tf.truncated_normal 正太分布，但如果随机出来的值超过2个标准差，则这个数将被重新随机 平均值、标准差、取值类型   tf.random_uniform 平均分布 最小、最大取值，取值">
@@ -429,14 +429,19 @@
 </ul>
 <p><a href="https://tensorflow.google.cn/api_docs/python/tf/nn/sigmoid_cross_entropy_with_logits" target="_blank" rel="noopener">详细内容参考官方API文档</a></p>
 <p><strong>注意：tensorflow交叉熵计算函数输入中的logits都不是softmax或sigmoid的输出，而是softmax或sigmoid函数的输入，因为它在函数内部进行sigmoid或softmax操作</strong></p>
-<h3 id="1-tf-nn-sigmoid-cross-entropy-with-logits"><a href="#1-tf-nn-sigmoid-cross-entropy-with-logits" class="headerlink" title="(1) tf.nn.sigmoid_cross_entropy_with_logits"></a>(1) tf.nn.sigmoid_cross_entropy_with_logits</h3><pre><code>tf.nn.sigmoid_cross_entropy_with_logits(logits=logits, labels=labels)
+<h3 id="1-tf-nn-sigmoid-cross-entropy-with-logits"><a href="#1-tf-nn-sigmoid-cross-entropy-with-logits" class="headerlink" title="(1) tf.nn.sigmoid_cross_entropy_with_logits"></a>(1) tf.nn.sigmoid_cross_entropy_with_logits</h3><pre><code>tf.nn.sigmoid_cross_entropy_with_logits(
+_sentinel=None,
+labels=None,
+logits=None,
+name=None
+)
 </code></pre><ul>
-<li>计算方式：对输入的logits先通过sigmoid函数计算，再计算它们的交叉熵，但是它对交叉熵的计算方式进行了优化，使得的结果不至于溢出。</li>
-<li>适用：每个类别相互独立但互不排斥的情况：例如一幅图可以同时包含一条狗和一只大象。</li>
-<li>输入：<br>(1) logits:数据类型（type）是float32或float64，维度(shape)为[batch_size,num_classes]<br>(2) labels:和logits具有相同的type(float)和shape的张量(tensor)</li>
-<li>输出：<br>loss, shape:[batch_size,num_classes]</li>
+<li>计算方式：对输入的logits先通过sigmoid函数计算，再计算它们的交叉熵，但是它对交叉熵的计算方式进行了优化，使得的结果不至于溢出</li>
+<li>适用：每个类别相互独立但互不排斥的情况：例如一幅图可以同时包含一条狗和一只大象</li>
+<li>输入：<br>(1) logits: 数据类型（type）是float32或float64，维度(shape)为[batch_size,num_classes]<br>(2) labels: 和logits具有相同的type(float)和shape的张量(tensor)</li>
+<li>输出：<br>loss， shape:[batch_size,num_classes]</li>
 </ul>
-
+<h3 id="（2）-tf-nn-softmax-cross-entropy-with-logits"><a href="#（2）-tf-nn-softmax-cross-entropy-with-logits" class="headerlink" title="（2） tf.nn.softmax_cross_entropy_with_logits"></a>（2） tf.nn.softmax_cross_entropy_with_logits</h3>
       
     </div>
     
@@ -635,7 +640,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Tensorflow之函数"><span class="nav-number">1.</span> <span class="nav-text">Tensorflow之函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-生成函数"><span class="nav-number">1.1.</span> <span class="nav-text">1. 生成函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Tensorflow之交叉熵函数"><span class="nav-number">1.2.</span> <span class="nav-text">2. Tensorflow之交叉熵函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-tf-nn-sigmoid-cross-entropy-with-logits"><span class="nav-number">1.2.1.</span> <span class="nav-text">(1) tf.nn.sigmoid_cross_entropy_with_logits</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Tensorflow之函数"><span class="nav-number">1.</span> <span class="nav-text">Tensorflow之函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-生成函数"><span class="nav-number">1.1.</span> <span class="nav-text">1. 生成函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Tensorflow之交叉熵函数"><span class="nav-number">1.2.</span> <span class="nav-text">2. Tensorflow之交叉熵函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-tf-nn-sigmoid-cross-entropy-with-logits"><span class="nav-number">1.2.1.</span> <span class="nav-text">(1) tf.nn.sigmoid_cross_entropy_with_logits</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）-tf-nn-softmax-cross-entropy-with-logits"><span class="nav-number">1.2.2.</span> <span class="nav-text">（2） tf.nn.softmax_cross_entropy_with_logits</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
