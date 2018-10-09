@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-09T14:41:28.987Z</updated>
+  <updated>2018-10-09T14:49:52.880Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/09/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/"/>
     <id>http://yoursite.com/2018/10/09/自然语言处理/</id>
     <published>2018-10-09T14:01:34.000Z</published>
-    <updated>2018-10-09T14:41:28.987Z</updated>
+    <updated>2018-10-09T14:49:52.880Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;目前，所有的自然语言处理的问题都可以分类成为五大统计自然语言处理的方法或者模型，即分类、匹配、翻译、结构预测，马尔可夫决策过程。各种各样的自然语言处理的应用，都可以模型化为这五大基本问题，基本能够涵盖自然语言处理相当一部分或者大部分的技术。</p><ul><li>分类：文本分类、情感分类</li><li>匹配： 搜索、问题回答(QA)、单轮对话</li><li>翻译： 机器翻译、手写识别、单轮对话</li><li>结构预测：实体抽取、词性标注、句法分析、文本语义分析</li><li>马尔可夫决策过程： 多轮对话<br><img src="/images/NLP.png" alt="自然语言处理"><br><img src="/images/test.jpg" alt="这是一个图片"></li></ul><p>参考文献：<br>[1] <a href="http://hangli-hl.com/recent-talks.html" target="_blank" rel="noopener">Natural Language Processing: An Overview</a></p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;目前，所有的自然语言处理的问题都可以分类成为五大统计自然语言处理的方法或者模型，即分类、匹配、翻译、结构预测，马尔可夫决策过程。各种各样的自然语言处理的应用，都可以模型化为这五大基本问题，基本能够涵盖自然语言处理相当一部分或者大部分的技术。</p><ul><li>分类：文本分类、情感分类</li><li>匹配： 搜索、问题回答(QA)、单轮对话</li><li>翻译： 机器翻译、手写识别、单轮对话</li><li>结构预测：实体抽取、词性标注、句法分析、文本语义分析</li><li>马尔可夫决策过程： 多轮对话<br><img src="/images/NLP.png" alt="自然语言处理"></li></ul><p>参考文献：<br>[1] <a href="http://hangli-hl.com/recent-talks.html" target="_blank" rel="noopener">Natural Language Processing: An Overview</a></p>]]></content>
     
     <summary type="html">
     
