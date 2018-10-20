@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-20T11:38:58.147Z</updated>
+  <updated>2018-10-20T11:43:49.260Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/20/python%E4%B9%8B%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93/"/>
     <id>http://yoursite.com/2018/10/20/python之常用标准库/</id>
     <published>2018-10-20T11:11:02.000Z</published>
-    <updated>2018-10-20T11:38:58.147Z</updated>
+    <updated>2018-10-20T11:43:49.260Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="python数据存储格式"><a href="#python数据存储格式" class="headerlink" title="python数据存储格式"></a>python数据存储格式</h1><h2 id="pickle"><a href="#pickle" class="headerlink" title="pickle"></a>pickle</h2><p>pickle模块则是Python专用的持久化模块，可以持久化包括自定义类在内的各种数据，比较适合Python本身复杂数据的存贮。pickle与json的操作基本一样，但是不同的是,它持久化后的字串是不可认读的，不如json的来得直观，并且只能用于Python环境，不能用作与其它语言进行数据交换，不通用。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>与json模块一模一样的方法名。但是在pickle中dumps()和loads()操作的是bytes类型，而不是json中的str类型；在使用dump()和load()读写文件时，要使用rb或wb模式，也就是只接收bytes类型的数据。<br>    | 方法    | 功能    |<br>    |:——|:——|<br>| 函数名称     | 随机数分布| 主要参数|<br>|:——–|:———|:——-:|<br>| pickle.dump(obj, file)    | 将Python数据转换并保存到pickle格式的文件内    |<br>| pickle.dumps(obj)    | 将Python数据转换为pickle格式的bytes字串    |<br>| pickle.load(file)    | 从pickle格式的文件中读取数据并转换为python的类型    |<br>| pickle.loads(bytes_object)    | 将pickle格式的bytes字串转换为python的类型    |</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="python数据存储格式"><a href="#python数据存储格式" class="headerlink" title="python数据存储格式"></a>python数据存储格式</h1><h2 id="pickle"><a href="#pickle" class="headerlink" title="pickle"></a>pickle</h2><p>pickle模块则是Python专用的持久化模块，可以持久化包括自定义类在内的各种数据，比较适合Python本身复杂数据的存贮。pickle与json的操作基本一样，但是不同的是,它持久化后的字串是不可认读的，不如json的来得直观，并且只能用于Python环境，不能用作与其它语言进行数据交换，不通用。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>与json模块一模一样的方法名。但是在pickle中dumps()和loads()操作的是bytes类型，而不是json中的str类型；在使用dump()和load()读写文件时，要使用rb或wb模式，也就是只接收bytes类型的数据。</p><table><thead><tr><th style="text-align:left">方法</th><th style="text-align:left">功能</th></tr></thead><tbody><tr><td style="text-align:left">pickle.dump(obj, file)</td><td style="text-align:left">将Python数据转换并保存到pickle格式的文件内</td></tr><tr><td style="text-align:left">pickle.dumps(obj)</td><td style="text-align:left">将Python数据转换为pickle格式的bytes字串</td></tr><tr><td style="text-align:left">pickle.load(file)</td><td style="text-align:left">从pickle格式的文件中读取数据并转换为python的类型</td></tr><tr><td style="text-align:left">pickle.loads(bytes_object)</td><td style="text-align:left">将pickle格式的bytes字串转换为python的类型</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
